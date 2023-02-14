@@ -1,0 +1,28 @@
+{
+    "project": [
+        {
+            "cover": "/project/1/i1.png",
+            "title": "MEMEws",
+            "description": "HTML,CSS,JS,PHP,MySql",
+            "url": "https://github.com/Devanshi-Crypto/MEMEws-Innovative-Newsletter"
+        },
+        {
+            "cover": "/project/1/i1.png",
+            "title": "Career Counselling ChatBot",
+            "description": "Python, ML",
+            "url": "https://github.com/Devanshi-Crypto/career-guidance-ml-model"
+        },
+        {
+            "cover": "/project/1/i2.png",
+            "title": "Music Player",
+            "description": "HTML,CSS,JS",
+            "url": "https://github.com/Devanshi-Crypto/musicplayer"
+        },
+        {
+            "cover": "/project/1/i3.png",
+            "title": "DIC AutoDesk Open Challenge",
+            "description": "HTML,CSS,JS",
+            "url": "https://github.com/Devanshi-Crypto/autodesk"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+.photo-grid {
+  display: grid;
+  gap: 1.5rem;
+
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  grid-auto-rows: 400px;
+  grid-auto-columns: 600px;
+}
+
+
+
+.image {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: transform .2s;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.image:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+/* Medium screens */
+@media screen and (min-width: 600px) {
+  .card-tall {
+    grid-row: span 2 / auto;
+  }
+
+  .card-wide {
+    grid-column: span 2 / auto;
+  }
+}
